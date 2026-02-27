@@ -1,0 +1,26 @@
+# Virtual environments
+.venv/
+venv/
+
+# Python bytecode/cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local environment files
+.env
+.env.*
+
+# Keep templates tracked
+!.env.example
+
+# Local runtime state
+*.db
+
+# Tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# OS/editor noise
+.DS_Store

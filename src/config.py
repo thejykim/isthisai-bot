@@ -35,7 +35,7 @@ def load_settings() -> Settings:
         reddit_user_agent=_required("REDDIT_USER_AGENT"),
         poll_interval_seconds=float(os.getenv("POLL_INTERVAL_SECONDS", "5")),
         db_path=os.getenv("DB_PATH", "./bot_state.db"),
-        model_name=os.getenv("MODEL_NAME", "SuperAnnotate/ai-detector"),
+        model_name=os.getenv("MODEL_NAME", "ShantanuT01/BERT-tiny-RAID"),
         api_calls_per_minute=int(os.getenv("API_CALLS_PER_MINUTE", "90")),
         command_trigger=os.getenv("COMMAND_TRIGGER", "!isthisai").strip().lower(),
         min_words_warning=int(os.getenv("MIN_WORDS_WARNING", "150")),

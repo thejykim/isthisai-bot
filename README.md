@@ -13,8 +13,22 @@
    ```
 4. Run:
    ```bash
-   python bot.py
+   python3 bot.py
    ```
+
+## Local Detector CLI
+
+```bash
+python3 cli_detect.py "This is a sample paragraph to analyze."
+```
+
+```bash
+python3 cli_detect.py --file samples/post.txt
+```
+
+```bash
+python3 cli_detect.py --interactive
+```
 
 ## Environment variables
 
